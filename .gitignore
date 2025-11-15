@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+hf_stock/
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and caches
+data/
+data/raw/
+data/processed/
+data/cache/
+data/hf_cache/
+
+# Hugging Face and pip caches
+.cache/
+hf_cache/
+
+# Models, logs
+models/saved_models/
+logs/
+
+# dotenv
+.env
+.env.*
+
+# Large files / checkpoints
+*.ckpt
+*.pt
+*.pth
+
+# Git LFS pointer files (if used)
+*.gitattributes
